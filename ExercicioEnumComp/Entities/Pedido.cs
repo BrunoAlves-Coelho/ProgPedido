@@ -10,9 +10,16 @@ namespace ExercicioEnumComp.Entities
     class Pedido
     {
         public DateTime Data { get; set; }
-        public PedidoStatus PedidoStatus { get; set; }
+        public PedidoStatus PedStatus { get; set; }
         public Cliente Cliente { get; set; }
         public List<ItemPedido> ItemPedido { get; set; }
+
+        public Pedido(DateTime data, PedidoStatus pedStatus, Cliente cliente)
+        {
+            Data = data;
+            PedStatus = pedStatus;
+            Cliente = cliente;
+        }
 
         public void AddItem(ItemPedido itemPedido)
         {
