@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using ExercicioEnumComp.Entities.Enums;
-using ExercicioEnumComp.Entities;
+using System.Globalization;
 
 
 namespace ExercicioEnumComp.Entities
@@ -11,14 +11,14 @@ namespace ExercicioEnumComp.Entities
     {
         public DateTime Data { get; set; }
         public PedidoStatus PedStatus { get; set; }
-        public Cliente Cliente { get; set; }
-        public List<ItemPedido> ItemPedido { get; set; }
+        public Cliente Clientes { get; set; }
+        public List<ItemPedido> ItemPedido { get; set; } = new List<ItemPedido>();
 
-        public Pedido(DateTime data, PedidoStatus pedStatus, Cliente cliente)
+        public Pedido(DateTime data, PedidoStatus pedStatus, Cliente clientes)
         {
             Data = data;
             PedStatus = pedStatus;
-            Cliente = cliente;
+            Clientes = clientes;
         }
 
         public void AddItem(ItemPedido itemPedido)
@@ -35,9 +35,26 @@ namespace ExercicioEnumComp.Entities
             double total = 0;
             foreach (ItemPedido itemPedido in ItemPedido)
             {
-                total += itemPedido.Subtotal();
+                total += itemPedido.SubTotal();
             }
             return total;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            
+            sb.AppendLine("Order moment: " + Data.ToString("dd / mm / yyyy hh: mm: ss"));
+            sb.AppendLine("Order status: " + PedStatus.ToString());
+            Console.WriteLine("Cliente: " + Clientes);
+            Console.WriteLine("Order items: ");
+            foreach (ItemPedido item in ItemPedido)
+            {
+                sb.AppendLine(item.ToString());
+            }
+            sb.AppendLine("Total price: " + Total().ToString("F2", CultureInfo.InvariantCulture));
+            return sb.ToString();
+
         }
 
     }

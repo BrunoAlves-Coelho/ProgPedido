@@ -6,13 +6,13 @@ namespace ExercicioEnumComp.Entities
 {
     class Produto
     {
-        public string Nome { get; set; }
-        public double Preço { get; set; }
+        public string NomeProduto { get; set; }
+        public double Preco { get; set; }
 
-        public Produto(string nome, double preço)
+        public Produto(string nomeProduto, double preco)
         {
-            Nome = nome;
-            Preço = preço;
+            NomeProduto = nomeProduto;
+            Preco = preco;
         }
     }
 }

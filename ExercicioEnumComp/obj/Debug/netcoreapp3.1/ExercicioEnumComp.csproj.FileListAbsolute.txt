@@ -1,0 +1,13 @@
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.exe
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.deps.json
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.runtimeconfig.json
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.runtimeconfig.dev.json
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.dll
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\bin\Debug\netcoreapp3.1\ExercicioEnumComp.pdb
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.csprojAssemblyReference.cache
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.AssemblyInfoInputs.cache
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.AssemblyInfo.cs
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.dll
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.pdb
+C:\Users\BRUNO COELHO\source\repos\ExercicioEnumComp\ExercicioEnumComp\obj\Debug\netcoreapp3.1\ExercicioEnumComp.genruntimeconfig.cache

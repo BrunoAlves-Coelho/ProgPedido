@@ -7,7 +7,7 @@ namespace ExercicioEnumComp.Entities.Enums
     enum PedidoStatus : int
     {
         Pagamento_Pendente = 0,
-        Processandp = 1,
+        Processando = 1,
         Enviado = 2,
         Entregue = 3
     }

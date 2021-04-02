@@ -16,5 +16,11 @@ namespace ExercicioEnumComp.Entities
             Email = email;
             DataNascimento = dataNascimento;
         }
+
+        public override string ToString()
+        {
+            return Nome + "(" + DataNascimento + ") - " + Email;
+        }
+
     }
 }
